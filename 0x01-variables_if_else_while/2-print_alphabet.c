@@ -1,30 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase.
+ * main - The last digit
  *
- * Return: Always 0.
-<<<<<<< HEAD
-*/
-=======
+ * Description: printing all the alphabets in lower case
+ *
+ * Return: Always (0) (Success)
  */
->>>>>>> a2064478f4b471e257c34280999890b0615e0dc6
 
 int main(void)
-{
-	char low;
 
-<<<<<<< HEAD
-	for (letter = 'a'; letter <= 'z'; letter++)
+{
+	char alphabet;
+
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+
 	{
-		putchar(letter);
-      	}
-=======
-	for (low = 'a'; low <= 'z'; low++)
-	{
-		putchar(low);
+		putchar(alphabet);
 	}
->>>>>>> a2064478f4b471e257c34280999890b0615e0dc6
-		putchar('\n');
+	putchar('\n');
+
 	return (0);
 }
