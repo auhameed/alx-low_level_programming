@@ -7,7 +7,7 @@
 */
 
 void rev_string(char *s)
-{	
+{
 	int i, x, y, c;
 
 	i = 0;
